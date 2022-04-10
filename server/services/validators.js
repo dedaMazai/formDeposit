@@ -1,15 +1,11 @@
 const { body } = require('express-validator/check');
 
 const validators = {
-    userValidator: [
-        body('email').isEmail().normalizeEmail(),
-        body('password').not().isEmpty().trim().isLength({min:5})
-        .withMessage('must be moreover 5 chars').matches(/\d/).withMessage('must be contain a number')
-    ],
-    loginValidator: [
-        body('email').isEmail().normalizeEmail(),
-        body('password').not().isEmpty().trim().isLength({min:5})
-        .withMessage('must be moreover 5 chars').matches(/\d/).withMessage('must be contain a number')
+    cardValidator: [
+        body('card').not().isEmpty().trim().isLength({min:11}),
+        body('dateCard').not().isEmpty().matches(/\d{2}\/\d{4}/),
+        body('cvrCard').not().isEmpty().trim().isLength(3),
+        body('amount').not().isEmpty()
     ]
 }
 

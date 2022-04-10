@@ -4,7 +4,7 @@ const { validationResult } = require('express-validator/check');
 function create (req, res) {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-        return res.status(422).json({errors: errors.array(), message: "Некоректные данные."})
+        return res.status(422).json({errors: errors.array(), message: "Incorrect data."})
     }
     const {card, dateCard, cvrCard, amount} = req.body;
     Users.create({id_User: nanoid(8), card, dateCard, cvrCard, amount})

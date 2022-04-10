@@ -9,7 +9,7 @@ const BasicFormSchema = Yup.object().shape({
     .length(3, "CVR must be 3 characters")
     .required("Enter the CVV "),
     dateCard: Yup.string()
-    .matches(/\d{2}\/\d{2}/, "Enter date of form 01/11")
+    .matches(/\d{2}\/\d{4}/, "Enter date of form 01/2022")
     .required("Enter the Expiration Date"),
     amount: Yup.number()
     .required("Enter the Expiration Amount")

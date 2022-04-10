@@ -54,10 +54,11 @@ function App() {
               <Typography variant="h6" >
                 Deposit
               </Typography>
-              <Divider variant="middle"  sx={{
-                textAlign: 'center',
-                my: 1,
-              }}/>
+              <Divider variant="middle"
+                sx={{
+                  textAlign: 'center',
+                  my: 1,
+                }}/>
               <TextField
                 name="card"
                 onChange={handleChange}
@@ -79,9 +80,9 @@ function App() {
                 label="Expiration Date"
                 variant="outlined"
                 size="small"
-                placeholder="01/11"
+                placeholder="01/2022"
                 inputProps={{
-                  maxLength: 5,
+                  maxLength: 7,
                 }}
                 sx={{ width: "42%",
                   mx: 1,
