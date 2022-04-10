@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "andreyL",
+    "password": "andrey123",
+    "database": "dspay",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "andreyL",
+    "password": "andrey123",
+    "database": "dspay",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "andreyL",
+    "password": "andrey123",
+    "database": "dspay",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
