@@ -15,7 +15,7 @@ If all the fields of the form are filled in correctly, the payment button is act
 ## To start the project
 `1` Install the repository.<br />
 `2` Write `npm install` for install the npm_modules folder is required to launch the application.<br />
-`3` Run the mysql database, create a schema, and enter the data to connect to it in the config file.json corresponding values.<br />
+`3` Run the mysql database, create a schema, and enter the data to connect to it in the file config.json corresponding values.<br />
 `4` Write `npm run dev`.
 
 ## Available Scripts
