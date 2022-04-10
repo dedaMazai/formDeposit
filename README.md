@@ -10,12 +10,12 @@ If all the fields of the form are filled in correctly, the payment button is act
 * `Formik`
 
 ## Preview app:
-![Illustration for the project](https://github.com/dedaMazai/formDeposit/raw/master/formDeposit.png)
+![Illustration for the project](https://github.com/dedaMazai/formDeposit/blob/main/formDeposit.png)
 
 ## To start the project
-* `1` Install the repository.
-* `2` Write npm install for install the npm_modules folder is required to launch the application.
-* `3` Write npm run dev.
+`1` Install the repository.
+`2` Write npm install for install the npm_modules folder is required to launch the application.
+`3` Write npm run dev.
 
 ## Available Scripts
 
